@@ -1,0 +1,370 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Tangerine', serif;
+}
+.top-header{
+    background-color: #6b5b95;
+    padding-bottom: 0px;
+}
+.top-header .top-header-left{
+    padding: 0px;
+}
+.top-header-email a{
+    color: #fff;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.top-header-email i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+.top-header-phone p{
+    color: #fff;
+    line-height: 40px;
+    text-decoration: none;
+    cursor: text;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.top-header-phone i{
+    margin-right:5px;
+    font-size: 20px;
+}
+.top-header-right .social-media{
+    float: right;
+}
+.top-header-right .social-media a{
+    line-height: 40px;
+    color: #fff;
+    padding-left: 14px;
+    font-size: 20px;
+}
+.social-media .fa-facebook:hover{
+    color: blue;
+}
+.social-media .fa-instagram:hover{
+    color: red;
+}
+.social-media .fa-google:hover{
+    color: red;
+}
+.social-media .fa-youtube:hover{
+    color: red;
+}
+@media only screen and (max-width: 768px) {
+    .top-header-midile .top-header-phone{
+       text-align: center;    
+    }
+    .top-header-left .top-header-email{
+        text-align: center;
+        margin: auto;
+    }
+    .top-header-email{
+        margin: auto;      
+    }
+    .top-header-right .social-media{
+        float: none;
+        text-align: center;
+        margin: auto;
+    }
+    .top-header-phone{
+        text-align: center;
+        margin: auto;
+    }
+    .navbar-nav .nav-item{
+        width: 200px;
+    }
+    .coppy-right .reserved{
+        text-align: center;
+    }
+}
+
+.bottom-header{
+    background-color: #d6cbd3;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.bottom-header h2{
+    letter-spacing: 5px;
+    color:  blue;
+    font: bold 50px Georgia, Serif;
+    text-shadow: -4px 3px 0 #0f1011, -7px 7px 0 #191b25;  
+}
+.navbar-nav .nav-item .menu{
+    color: #000;
+    font-size: 17px;
+}
+.navbar-nav .nav-item .menu i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.navbar-nav .nav-item{
+    margin-left: 20px;
+}
+.navbar-nav .nav-item .menu:hover{
+    color: blue;
+}
+.navbar-nav .nav-item:hover{
+    border-bottom: 1px solid blue;
+    
+}
+.navbar-nav .profile{
+    margin-left: 20px;
+}
+.profile{
+    height: 50px;
+}
+.profile .ul2 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+.profile .ul2 span{
+    color: #000000;
+    /* font-size: 18px; */
+}
+.active{
+    border-bottom: 1px solid blue;
+}
+.hide{
+    display: none;
+}
+          
+/*--------------------------------------------------------------
+            # footer section css start
+--------------------------------------------------------------*/
+.footer{
+    /* background-color: rgb(31, 64, 54); */
+    background-color: #c8c3cc;
+    background-color: rgb(31, 64, 54);
+    padding: 20px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+.footer-address h4 {
+    color: red;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.footer-address h6 {
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    line-height: 1.5;  
+    margin-left: 40px;
+}
+.footer-address p {
+    color: white;
+    font-size: 15px;
+    margin-left: 40px;
+}
+.footer-tutorials ul  a,.footer-service ul  a {
+    text-decoration: none;
+}
+
+.footer-tutorials h4,.footer-service h4 {
+    color: red;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.footer-tutorials ul li:hover,.footer-service ul li:hover{
+    color: red;       
+}
+.footer-tutorials ul li, .footer-service ul li {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.coppy-right{
+    background-color: rgb(71, 33, 33);
+    padding: 12px;
+}
+.coppy-right p{
+    color: white;
+    margin-left: 80px;
+    padding: 5px 0px;
+}
+.coppy-right a{
+    color: blue;
+    padding: 5px 0px ;
+    margin-left: 10px;
+}
+.coppy-right p{
+    color: white;
+    
+}
+/* Index page end */
+/* Login page start */
+.loginbody{
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+}
+.loginbody img{
+    padding-top: 100px;
+}
+.loginbody h4{
+    color: rgb(18, 18, 233);
+}
+.loginbody .btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(18, 18, 233);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.loginbody .btn1:hover{
+    background: white;
+    border: 1px solid;
+    color: rgb(18, 18, 233);
+}
+/* Login end */
+/* Signup start */
+.signupbody{
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+}
+.signupbody img{
+    padding-top: 100px;
+}
+.signupbody h4{
+    color: rgb(18, 18, 233);
+}
+.signupbody .btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(18, 18, 233);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.signupbody .btn1:hover{
+    background: white;
+    border: 1px solid;
+    color: rgb(18, 18, 233);
+}
+/* signup end */
+/* Admin Style Start */
+.dashboard-content{
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+}
+.ul1 i{
+    font-size: 22px;
+    color: rgb(109, 108, 108);
+    padding-right: 5px;
+}
+.ul1 span{
+    font-size: 20px;
+    color: rgb(109, 108, 108);
+    padding-right: 5px;
+}
+.management-card a{
+    text-align: center;
+    padding: 35px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #7382e4;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: 700;
+}
+.management-card a:hover{
+    background-color: #b2e6e6;
+    color: #800000;
+}
+.teacher-card a{
+    text-align: center;
+    padding: 35px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #fb5d70;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: 700;
+}
+.teacher-card a:hover{
+    background-color: #b2e6e6;
+    color: #800000;
+}
+.student-card a{
+    text-align: center;
+    padding: 35px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #818edd;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: 700;
+}
+.student-card a:hover{
+    background-color: #b2e6e6;
+    color: #800000;
+}
+
+.pending-management-card a{
+    text-align: center;
+    padding: 35px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #7382e4;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: 700;
+}
+.rejected-management-card a{
+    text-align: center;
+    padding: 35px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #73d3e4;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: 700;
+}
+.action-management-card a{
+    text-align: center;
+    padding: 35px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #73e4a2;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: 700;
+}
+.pending-management-card a:hover{
+    background-color: #b7ceb8;
+    color: #800000;
+}
+.rejected-management-card a:hover{
+    background-color: #b7ceb8;
+    color: #800000;
+}
+.action-management-card a:hover{
+    background-color: #b7ceb8;
+    color: #800000;
+}
+/* Dashboard Style End */
+
+
+/* Profile  */
+.profile-card{
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+}
